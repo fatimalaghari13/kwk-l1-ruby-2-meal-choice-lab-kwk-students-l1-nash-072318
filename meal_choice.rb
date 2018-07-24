@@ -29,7 +29,11 @@ puts snacks("Swedish fish")
 ## This returns "Any time, is the right time for Sweedish fish!"
 
 # call your methods here
+def snacks (snacks = "Cheetos")
+  puts "Any time, is the right time for #{snacks}!"
+end
 
+snacks ("Swedish fish")
 
 # Call your methods without any arguments here
 puts snacks
